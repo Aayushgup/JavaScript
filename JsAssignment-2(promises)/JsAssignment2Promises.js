@@ -17,27 +17,27 @@ console.log("Assignment2 ");
  //completed, so that we can have correct email at line 10?
 //-------------------------------------------------------------------------------
 
-// function getData(uId) {
-//         return new Promise(function(resolve){
-//              setTimeout(() => {
-//             console.log("Fetched the data!");
-//             resolve("skc@gmail.com");
-//             }, 1000);
-//     })
+function getData(uId) {
+        return new Promise(function(resolve){
+             setTimeout(() => {
+            console.log("Fetched the data!");
+            resolve("skc@gmail.com");
+            }, 1000);
+    })
     
-//     }
+    }
     
-//     async function myfunction(){
-//         console.log("start");
-//         var email = await getData("skc");
-//         console.log("Email id of the user id is: " + email);
-//         console.log("end");
-//     }
+    async function myfunction(){
+        console.log("start");
+        var email = await getData("skc");
+        console.log("Email id of the user id is: " + email);
+        console.log("end");
+    }
 
-//     myfunction();
+    myfunction();
 
 //-----------------------------------------------------------------------------------
-//just for practice 
+//just for practice (tried to do other way)
 //     function getData(uId,callback) {
 
 //             setTimeout(() => {
